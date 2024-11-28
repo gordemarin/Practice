@@ -1,0 +1,172 @@
+html, body {
+    margin: unset;
+    padding: unset;
+}
+
+body {
+    font-family: sans-serif;
+    width: auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1110px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.logo{
+
+    justify-content: center;
+    align-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.knop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.inf {
+    display: grid;
+}
+
+.zag {
+    height: 120px;
+    width: 500px;
+    font-size: 30px;
+}
+
+.osntxt {
+    height: 110px;
+    width: 445px;
+    font-size: 22px;
+}
+
+.but {
+    height: 70px;
+    width: 255px;
+    background-color: #7875FE;
+    font-size: 20px;
+}
+
+.verh {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.v {
+    margin-top: 50px;
+    display: grid;
+    font-size: 14px;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid #C0C0C0;
+    
+}
+
+.tpage {
+    background-color: #EBEBEB;
+}
+
+.two {
+    display: grid;
+    justify-content: center;
+}
+
+.niz {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.foldetv8{
+    width: 1vw;
+}
+
+.maxbeliz {
+    font-size: 30px;
+    width: 25%;
+}
+
+.maxb{
+    font-size:larger;
+}
+.abz {
+    font-size: 22px;
+}
+
+.tree {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 60px;
+}
+
+.kartochki {
+    width: 250px;
+    height: 465px;
+    display: grid;
+}
+
+.chpage {
+    background-color: #EBEBEB;
+}
+
+.four {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5%;
+}
+
+.five {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 40px;
+}
+
+.inform{
+
+    align-items: center;
+}
+
+.contact {
+    
+}
+
+.six {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #4C5866;
+}
+
+.media {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
