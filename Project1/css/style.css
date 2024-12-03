@@ -41,32 +41,52 @@ body {
 }
 
 .one {
-    padding: 100px;
+
+    padding-top: 60px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
+.img{
+
+}
+
 .inf {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.simple{
+    margin: 0px;
 }
 
 .zag {
-    height: 120px;
+    height: auto;
     width: 500px;
     font-size: 30px;
 }
 
 .osntxt {
-    height: 110px;
+    height: auto;
     width: 445px;
     font-size: 22px;
+    line-height: 1.5;
 }
 
 .but {
     height: 70px;
     width: 255px;
-    background-color: #7875FE;
+    background-color: transparent;
     font-size: 20px;
+    border-color: #7875FE;
+    color: #7875FE;
+    transition: all 40ms ease-in-out
+}
+
+.but:hover{
+    background-color: #7875FE;
+    color: white
 }
 
 .verh {
@@ -77,9 +97,10 @@ body {
 
 .v {
     margin-top: 50px;
-    display: grid;
+    padding-top: 25px;
+    display: flex;
     font-size: 14px;
-    grid-template-columns: repeat(2, 1fr);
+    flex-direction: row;
     border-top: 1px solid #C0C0C0;
 
 }
@@ -122,10 +143,41 @@ body {
     padding-top: 60px;
 }
 
+
+.cat{
+    margin: 0px;
+}
+
+.tir{
+    font-size: 14px;
+    margin: 0px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.sub{
+    line-height: 2;
+    font-size: 16px;
+}
+
 .kartochki {
-    width: 250px;
+    width: 260px;
     height: 465px;
-    display: grid;
+}
+
+.kartpack{
+    height: 200px;
+}
+
+ul{
+    padding: 0px;
+    text-align: left;
+    color: #7875FE;
+    font-size: large;
+}
+
+ul:hover{
+    color: #4946B4;
+    
 }
 
 .chpage {
