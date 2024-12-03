@@ -47,10 +47,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.img{
-
-}
-
 .inf {
     display: flex;
     flex-direction: column;
